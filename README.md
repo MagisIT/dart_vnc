@@ -1,14 +1,19 @@
 # dart_vnc
 
-A new Flutter package project.
+A Flutter VNC client which implements the [RFB](https://github.com/rfbproto/rfbproto/blob/master/rfbproto.rst) protocol ([RFC 6143](https://tools.ietf.org/html/rfc6143)).
+Since the plugin is fully written in dart it should run on every device which can run Flutter apps.
 
-## Getting Started
+**This project is under development. There is no guarantee that it works as intended or works at all.**
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Usage
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+To use this plugin, add dart_vnc as a dependency in your pubspec.yaml file.
+The Plugin will be released on flutter pub when it is finished.
+```yaml
+dependencies:
+  [...]
+  dart_vnc: X.x.x
+  [...]
+```
+## Example
+Coming soon.
